@@ -12,8 +12,9 @@ export const HelloWorld = tw.h1`
 text-5xl
 ml-40
 m-0
+pb-3
 text-green-600
-hover:underline duration-1000
+hover:underline
 `
 
 export const About = tw.div`
@@ -24,6 +25,7 @@ pt-40
 mt-0
 m-0
 h-full
+pb-16
 `
 
 export const Hello = tw.p`

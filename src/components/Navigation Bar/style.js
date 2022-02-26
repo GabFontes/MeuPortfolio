@@ -4,6 +4,7 @@ export const NavBar = tw.nav`
 flex
 items-center
 fixed
+z-10
 top-0
 left-0
 right-0

@@ -9,10 +9,18 @@ export function AboutMe() {
         Olá! Eu sou o
         <Name>
           Gabriel Fontes
-        <span> &#129299;</span>
+          <span> &#129299;</span>
         </Name>
       </Hello>
-      <Hello>Estudante de desenvolvimento Web FullStack na Trybe</Hello>
+      <div className='block'>
+        <span
+          className='text-4xl
+        text-white
+         ml-40'
+        >
+          Estudante de Desenvolvimento Web FullStack na <a href='https://www.betrybe.com/' target="_blank" className='text-green-600' rel="noreferrer">Trybe <span className='animate-pulse'>&#128640;</span></a>
+        </span>
+      </div>
       <Paragraph>
         Olá! Tenho 18 anos, sou formado no ensino médio e atualmente curso Desenvolvimento Web na Trybe!
         Tenho o objetivo de me tornar um Desenvolvedor Web para ajudar as pessoas a solucionar problemas e adquirir boas experiências com isso.
