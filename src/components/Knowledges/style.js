@@ -46,10 +46,6 @@ mt-5
 mr-3
 `
 
-export const CardText = tw.div`
-
-`
-
 export const CardName = tw.span`
 font-bold
 text-xl
