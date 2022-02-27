@@ -7,8 +7,8 @@ export function NavigationBar() {
   return (
     <WrapperHeader>
       <NavBar>
-        <Text>Sobre Mim</Text>
-        <Text>Conhecimentos</Text>
+        <Text href="#about">Sobre Mim</Text>
+        <Text href="#knowledges">Conhecimentos</Text>
         <Text>Projetos</Text>
         <a href='https://github.com/GabFontes' target="_blank" rel="noreferrer"  >
           <img

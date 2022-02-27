@@ -6,7 +6,7 @@ import data from '../../data/technologies'
 export function Knowledges() {
   return (
     <Knowledge>
-      <Title>Conhecimentos e Tecnologias</Title>
+      <Title id="knowledges">Conhecimentos e Tecnologias</Title>
       <img className="self-center pt-8 pb-20" src={technology} width={60} height={60} alt="Mysql ícones criados por Freepik - Flaticon" />
 
       <TechnologiesCard>

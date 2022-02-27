@@ -3,7 +3,7 @@ import { Paragraph, HelloWorld, About, Hello, Name, Studant } from './style';
 
 export function AboutMe() {
   return (
-    <About>
+    <About id="about">
       <HelloWorld>{`< Hello World! />`} &#127757;</HelloWorld>
       <Hello>
         Olá! Eu sou o

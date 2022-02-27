@@ -32,6 +32,7 @@ m-0
 h-full
 pb-16
 bg-neutral
+scroll-smooth
 `
 
 export const Hello = tw.p`
