@@ -17,6 +17,11 @@ text-green-600
 hover:underline
 `
 
+export const Studant = tw.div`
+block
+pb-8
+`
+
 export const About = tw.div`
 flex
 flex-col
@@ -26,6 +31,7 @@ mt-0
 m-0
 h-full
 pb-16
+bg-neutral
 `
 
 export const Hello = tw.p`

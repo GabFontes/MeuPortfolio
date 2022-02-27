@@ -1,5 +1,5 @@
 import React from 'react'
-import { Paragraph, HelloWorld, About, Hello, Name } from './style';
+import { Paragraph, HelloWorld, About, Hello, Name, Studant } from './style';
 
 export function AboutMe() {
   return (
@@ -12,7 +12,7 @@ export function AboutMe() {
           <span> &#129299;</span>
         </Name>
       </Hello>
-      <div className='block'>
+      <Studant className='block'>
         <span
           className='text-4xl
         text-white
@@ -20,9 +20,9 @@ export function AboutMe() {
         >
           Estudante de Desenvolvimento Web FullStack na <a href='https://www.betrybe.com/' target="_blank" className='text-green-600' rel="noreferrer">Trybe <span className='animate-pulse'>&#128640;</span></a>
         </span>
-      </div>
+      </Studant>
       <Paragraph>
-        Olá! Tenho 18 anos, sou formado no ensino médio e atualmente curso Desenvolvimento Web na Trybe!
+        Olá! Tenho 18 anos, sou um Desenvolvedor Front-end junior e atualmente curso Desenvolvimento Web na Trybe!
         Tenho o objetivo de me tornar um Desenvolvedor Web para ajudar as pessoas a solucionar problemas e adquirir boas experiências com isso.
       </Paragraph>
     </About>

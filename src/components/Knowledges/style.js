@@ -43,7 +43,6 @@ export const ImgCard = tw.img`
 ${props => props.validation === 'GITHUB' ? 'bg-white rounded-full' : ''}
 w-16
 mt-5
-mr-3
 `
 
 export const CardName = tw.span`
@@ -51,17 +50,20 @@ font-bold
 text-xl
 mb-2
 hover:underline
-mt-8
+mt-4
+self-center
 `
 
 export const CardDescription = tw.p`
 text-white
 text-base
-px-6 py-4
+px-6
+py-4
 `
 
 export const HeaderCard = tw.div`
-flex justify-center
+justify-center
+self-center
 `
 
 export const TechnologiesCard = tw.div`

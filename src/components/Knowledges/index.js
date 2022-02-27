@@ -7,22 +7,24 @@ export function Knowledges() {
   return (
     <Knowledge>
       <Title>Conhecimentos e Tecnologias</Title>
-      <img className="self-center pb-20" src={technology} width={60} height={60} alt="Mysql ícones criados por Freepik - Flaticon" />
+      <img className="self-center pt-8 pb-20" src={technology} width={60} height={60} alt="Mysql ícones criados por Freepik - Flaticon" />
 
       <TechnologiesCard>
-        {/* {
+        {
           data.map(({ name, description, image }) => (
             <Card>
               <HeaderCard>
                 <ImgCard src={image} alt="Icon" validation={name} />
-                <CardName>{name}</CardName>
               </HeaderCard>
-                <CardDescription class="text-white text-base">
+                <CardName>{name}</CardName>
+              <div className="description">
+                <CardDescription>
                   {description}
                 </CardDescription>
+              </div>
             </Card>
           ))
-        } */}
+        }
       </TechnologiesCard>
     </Knowledge >
   )
