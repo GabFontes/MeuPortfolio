@@ -18,7 +18,7 @@ export function AboutMe() {
         text-white
          ml-40'
         >
-          Estudante de Desenvolvimento Web FullStack na <a href='https://www.betrybe.com/' target="_blank" className='text-green-600' rel="noreferrer">Trybe <span className='animate-pulse'>&#128640;</span></a>
+          Estudante de Desenvolvimento Web FullStack na <a href='https://www.betrybe.com/' target="_blank" className='text-green-600' rel="noreferrer">Trybe <span className='animate-pulse'>&#127891;&#128640;</span></a>
         </span>
       </Studant>
       <Paragraph>

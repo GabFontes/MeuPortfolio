@@ -10,7 +10,10 @@ module.exports = {
         semineutral: '#121212',
         htmlIcon: '#ed693d'
       },
+      spacing: {
+        'corner': 'left: 150px;',
+      }
     },
   },
-  plugins: [],
+  plugins: []
 }
