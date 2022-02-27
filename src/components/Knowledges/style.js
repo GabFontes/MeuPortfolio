@@ -51,7 +51,6 @@ export const CardText = tw.div`
 `
 
 export const CardName = tw.span`
-text-htmlIcon
 font-bold
 text-xl
 mb-2
