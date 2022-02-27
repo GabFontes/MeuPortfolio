@@ -11,12 +11,12 @@ export function Knowledges() {
 
       <TechnologiesCard>
         {
-          data.map(({ name, description, image }) => (
+          data.map(({ name, description, image, knowmore }) => (
             <Card>
               <HeaderCard>
                 <ImgCard src={image} alt="Icon" validation={name} />
               </HeaderCard>
-                <CardName>{name}</CardName>
+                <CardName target="_blank" href={knowmore}>{name}</CardName>
               <div className="description">
                 <CardDescription>
                   {description}

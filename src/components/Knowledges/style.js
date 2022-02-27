@@ -22,6 +22,7 @@ flex-col
 
 export const Card = tw.span`
 max-w-sm
+max-h-72
 rounded
 shadow-md
 text-2xl
@@ -45,7 +46,7 @@ w-16
 mt-5
 `
 
-export const CardName = tw.span`
+export const CardName = tw.a`
 font-bold
 text-xl
 mb-2
