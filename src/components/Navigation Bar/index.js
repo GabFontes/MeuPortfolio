@@ -1,16 +1,27 @@
 import React from 'react'
-import gitHubLogo from '../../images/GitHub_Logo.png';
-import linkedingLogo from '../../images/icons8-linkedin-96.png';
-import { NavBar, WrapperHeader, Text } from './style';
+import gitHubLogo from '../../images/icons/GitHub_Logo.png';
+import linkedingLogo from '../../images/icons/icons8-linkedin-96.png';
+import { NavBar, Text, Anchors, Icons } from './style';
 
 export function NavigationBar() {
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
   return (
-    <WrapperHeader>
-      <NavBar>
+    <NavBar>
+      <Anchors>
         <Text href="#about">Sobre Mim</Text>
         <Text href="#knowledges">Conhecimentos</Text>
-        <Text>Projetos</Text>
-        <a href='https://github.com/GabFontes' target="_blank" rel="noreferrer"  >
+        <Text href="#projects" style={{ behavior: 'smooth' }} > Projetos</Text>
+      </Anchors>
+      <Icons>
+        <a className="m-4 mx-16" href='https://github.com/GabFontes' target="_blank" rel="noreferrer"  >
           <img
             className="bg-white rounded-lg"
             src={gitHubLogo}
@@ -27,8 +38,10 @@ export function NavigationBar() {
             alt="linkedin Logo"
           />
         </a>
-      </NavBar>
-    </WrapperHeader>
+      </Icons>
+    </NavBar>
+
+
   )
 }
 

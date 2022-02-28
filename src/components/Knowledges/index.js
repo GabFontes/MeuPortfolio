@@ -1,6 +1,6 @@
 import React from 'react'
 import { Title, Knowledge, Card, TechnologiesCard, ImgCard, HeaderCard, CardName, CardDescription } from './style'
-import technology from '../../images/technology.png'
+import technology from '../../images/icons/technology.png'
 import data from '../../data/technologies'
 
 export function Knowledges() {

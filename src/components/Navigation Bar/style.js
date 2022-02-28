@@ -18,14 +18,23 @@ pr-24
 flex-shrink-0
 text-white
 `
-export const WrapperHeader = tw.div`
-flex items-center justify-between flex-wrap
-`
-export const Text = tw.a`
-block lg:inline-block hover:text-green-600
-text-lg
-`
-export const Icon = tw.span`
 
+export const Text = tw.a`
+block
+lg:inline-block
+hover:text-green-600
+text-xl
+px-12
 `
-export default NavBar;
+
+export const Anchors = tw.div`
+flex
+align-middle
+`
+
+export const Icons = tw.span`
+flex
+items-center
+m-0
+p-0
+`

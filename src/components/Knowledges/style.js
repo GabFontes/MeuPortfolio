@@ -10,7 +10,7 @@ flex-wrap
 justify-center
 `
 
-export const Knowledge = tw.h1`
+export const Knowledge = tw.div`
 text-white
 bg-semineutral
 h-full
@@ -25,11 +25,12 @@ max-w-sm
 max-h-72
 rounded
 shadow-md
+bg-neutral
 text-2xl
 align-middle
 transform
 transition
-duration-500
+duration-400
 hover:scale-110
 border-b-8
 border-green-600

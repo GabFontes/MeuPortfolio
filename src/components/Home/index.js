@@ -2,7 +2,7 @@ import React from 'react'
 import { NavigationBar, Knowledges, Projects, AboutMe } from '..'
 import { useState } from 'react'
 import { Button, UploadImg, ImgWrapper } from './style'
-import upArrow from '../../images/fast-forward.png'
+import upArrow from '../../images/icons/fast-forward.png'
 
 export function Home() {
 
@@ -28,7 +28,7 @@ export function Home() {
   window.addEventListener('scroll', toggleVisible);
 
   return (
-    <div>
+    <div className="subpixel-antialiased">
       <NavigationBar />
       <AboutMe />
       <Knowledges />
