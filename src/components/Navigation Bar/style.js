@@ -21,10 +21,6 @@ text-white
 export const WrapperHeader = tw.div`
 flex items-center justify-between flex-wrap
 `
-export const Text = tw.a`
-block lg:inline-block hover:text-green-600
-text-lg
-`
 export const Icon = tw.span`
 
 `

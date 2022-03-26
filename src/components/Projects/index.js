@@ -1,13 +1,63 @@
 import React from 'react'
-import { Proj, Title, Img } from './style'
 import projectIcon from '../../images/project-scheme.png'
+import {
+  ProjectsHeader,
+  Title,
+  ProjIcon,
+  ProjContainer,
+  CardWrapper,
+  CardImg,
+  CardBody,
+  CardBodyOuter,
+  CardBodyInner,
+  CardTitle,
+  CardDescription,
+  TextOfDescription,
+  CardButton,
+  Button
+} from './style'
+import projectsData from '../../data/projects';
+
 
 export function Projects() {
   return (
-    <Proj>
-      <Title>Projetos Desenvolvidos</Title>
-      <Img src={projectIcon} width={62} height={62} alt="Project icons created by Flat Icons - Flaticon"/>
-    </Proj>
+    <div>
+      <ProjectsHeader>
+        <Title>Projetos Desenvolvidos</Title>
+
+        <ProjIcon src={projectIcon} width={62} height={62} alt="Project icons created by Flat Icons - Flaticon" />
+
+      </ProjectsHeader>
+      {projectsData.map(({ name, description, image, link }) => (
+        <ProjContainer id="projects">
+          <CardWrapper>
+            <CardImg>
+              <img className="rounded" src={image} width="220px" alt="Imagem projeto app de receitas" />
+            </CardImg>
+
+            <CardBody>
+              <CardBodyOuter>
+                <CardBodyInner>
+                  <CardTitle>
+                    <h3>{name}</h3>
+                  </CardTitle>
+                  <CardDescription>
+                    <TextOfDescription>
+                      {description}
+                    </TextOfDescription>
+                  </CardDescription>
+                  <CardButton>
+                    <Button type="button" target="_blank" href={link}>
+                      Ver Projeto
+                    </Button>
+                  </CardButton>
+                </CardBodyInner>
+              </CardBodyOuter>
+            </CardBody>
+          </CardWrapper>
+        </ProjContainer>
+      ))}
+    </div>
   )
 }
 

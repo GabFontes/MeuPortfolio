@@ -1,7 +1,7 @@
-import React from 'react'
-import { Title, Knowledge, Card, TechnologiesCard, ImgCard, HeaderCard, CardName, CardDescription } from './style'
-import technology from '../../images/technology.png'
-import data from '../../data/technologies'
+import React from 'react';
+import technology from '../../images/technology.png';
+import data from '../../data/technologies';
+import { Title, Knowledge, Card, TechnologiesCard, ImgCard, HeaderCard, CardName, CardDescription } from './style';
 
 export function Knowledges() {
   return (
@@ -16,7 +16,7 @@ export function Knowledges() {
               <HeaderCard>
                 <ImgCard src={image} alt="Icon" validation={name} />
               </HeaderCard>
-                <CardName target="_blank" href={knowmore}>{name}</CardName>
+              <CardName target="_blank" href={knowmore}>{name}</CardName>
               <div className="description">
                 <CardDescription>
                   {description}
