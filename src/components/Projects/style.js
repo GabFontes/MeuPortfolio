@@ -119,7 +119,7 @@ self-center
 bg-green-600
 hover:bg-white
 hover:text-green-600
-hover:scale-110
+hover:scale-105
 duration-300
 rounded
 w-full
