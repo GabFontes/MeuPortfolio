@@ -57,6 +57,13 @@ export function Projects() {
           </CardWrapper>
         </ProjContainer>
       ))}
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </div>
   )
 }

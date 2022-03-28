@@ -3,7 +3,7 @@ import { NavigationBar, Knowledges, Projects, AboutMe } from '..'
 
 export function Home() {
   return (
-    <div className='bg-neutral'>
+    <div className='bg-neutral font-sans'>
       <NavigationBar />
       <AboutMe />
       <Knowledges />

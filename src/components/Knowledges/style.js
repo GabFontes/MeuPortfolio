@@ -18,6 +18,7 @@ flex
 justify-center
 flex-wrap
 flex-col
+font-mono
 `
 
 export const Card = tw.span`

@@ -1,12 +1,12 @@
 import appDeReceitas from '../images/projeto-app-de-receitas.png'
 
 const projectsData = [
-    {
-        name: "App de Receitas",
-        description: "The Cf Vasily the Blessed (Russian: Собор Василия Блаженного, Sobor Vasiliya Blazhennogo), commonly known as Saint Basil's Cathedral, is a church in Red Square in Moscow, Russia. The building, now a museum, is officially known as the Cathedral of the Intercession of the Most Holy Theotokos on the Moat (Russian: Собор Покрова Пресвятой Богородицы, что на Рву, Sobor Pokrova Presvyatoy Bogoroditsy, chto na Rvu) or Pokrovsky Cathedral (Russian: Покровский собор).[5] It was built from 1555–1561 on orders from Ivan the Terrible and commemorates the capture of Kazan and Astrakhan",
-        image: appDeReceitas,
-        link:"https://app-de-receitas-gabfontes.vercel.app/"
-    },
+  {
+    name: "App de Receitas",
+    description: "Este foi um projeto desenvolvido durante o módulo de Front-end da Trybe, feito colaboração com mais três devs e colegas. Consiste em uma aplicação que renderiza receitas de comidas e bebidas, onde é possível ver, buscar, filtrar, favoritar e acompanhar o progresso das receitas e drinks. Todo o projeto foi feito com a biblioteca React e tudo que há de mais moderno dentro de seu ecossistema como Hooks e Context API! E para estilização usamos o framework Bootstrap.",
+    image: appDeReceitas,
+    link: "https://app-de-receitas-gabfontes.vercel.app/"
+  },
 ];
 
 export default projectsData;

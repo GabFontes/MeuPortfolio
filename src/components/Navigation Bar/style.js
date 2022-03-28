@@ -11,8 +11,8 @@ right-0
 justify-between
 flex-wrap
 bg-neutral
-pt-5
-pb-5
+pt-3
+pb-3
 pl-24
 pr-24
 flex-shrink-0

@@ -32,6 +32,7 @@ p-4
 md:p-0
 h-2/6
 w-full
+font-mono 
 `
 
 export const CardWrapper = tw.div`
