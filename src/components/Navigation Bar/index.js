@@ -1,7 +1,8 @@
 import React from 'react'
-import gitHubLogo from '../../images/icons/GitHub_Logo.png';
-import linkedingLogo from '../../images/icons/icons8-linkedin-96.png';
-import { NavBar, Text, Anchors, Icons } from './style';
+import gitHubLogo from '../../images/GitHub_Logo.png';
+import linkedingLogo from '../../images/icons8-linkedin-96.png';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { NavBar, WrapperHeader } from './style';
 
 export function NavigationBar() {
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -14,14 +15,12 @@ export function NavigationBar() {
     });
   });
   return (
-    <NavBar>
-      <Anchors>
-        <Text href="#about">Sobre Mim</Text>
-        <Text href="#knowledges">Conhecimentos</Text>
-        <Text href="#projects" style={{ behavior: 'smooth' }} > Projetos</Text>
-      </Anchors>
-      <Icons>
-        <a className="m-4 mx-16" href='https://github.com/GabFontes' target="_blank" rel="noreferrer"  >
+    <WrapperHeader>
+      <NavBar>
+        <AnchorLink className="block lg:inline-block hover:text-green-600 text-lg" href="#about">Sobre Mim</AnchorLink>
+        <AnchorLink className="block lg:inline-block hover:text-green-600 text-lg" href="#knowledges">Conhecimentos</AnchorLink>
+        <AnchorLink className="block lg:inline-block hover:text-green-600 text-lg" href="#projects">Projetos</AnchorLink>
+        <a href='https://github.com/GabFontes' target="_blank" rel="noreferrer"  >
           <img
             className="bg-white rounded-lg"
             src={gitHubLogo}

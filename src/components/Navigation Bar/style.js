@@ -11,21 +11,17 @@ right-0
 justify-between
 flex-wrap
 bg-neutral
-pt-5
-pb-5
+pt-3
+pb-3
 pl-24
 pr-24
 flex-shrink-0
 text-white
 `
-
-export const Text = tw.a`
-block
-lg:inline-block
-hover:text-green-600
-text-xl
-px-12
+export const WrapperHeader = tw.div`
+flex items-center justify-between flex-wrap
 `
+export const Icon = tw.span`
 
 export const Anchors = tw.div`
 flex

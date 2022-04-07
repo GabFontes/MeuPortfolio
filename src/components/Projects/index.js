@@ -1,30 +1,70 @@
 import React from 'react'
-import { Proj, Title, Img, Cards, CardImg, Card, ImgContainer, CardText, OpenProj, Name, Description } from './style'
-import projectIcon from '../../images/icons/project-scheme.png'
-import projectsData from '../../data/projects'
+import projectIcon from '../../images/project-scheme.png'
+import {
+  ProjectsHeader,
+  Title,
+  ProjIcon,
+  ProjContainer,
+  CardWrapper,
+  CardImg,
+  CardBody,
+  CardBodyOuter,
+  CardBodyInner,
+  CardTitle,
+  CardDescription,
+  TextOfDescription,
+  CardButton,
+  Button
+} from './style'
+import projectsData from '../../data/projects';
+
 
 export function Projects() {
   return (
-    <Proj>
-      <Title id="projects">Projetos Desenvolvidos</Title>
-      <Img src={projectIcon} width={62} height={62} alt="Project icons created by Flat Icons - Flaticon" />
-      <Cards>
-        {
-          projectsData.map(({ name, link, img, description }) => (
-            <Card>
-              <ImgContainer>
-                <CardImg src={img} />
-              </ImgContainer>
-              <CardText>
-                <Name>{name}</Name>
-                <Description>{description}</Description>
-                <OpenProj href={link} target="_blank">{name}</OpenProj>
-              </CardText>
-            </Card>
-          ))
-        }
-      </Cards>
-    </Proj>
+    <div>
+      <ProjectsHeader>
+        <Title>Projetos Desenvolvidos</Title>
+
+        <ProjIcon src={projectIcon} width={62} height={62} alt="Project icons created by Flat Icons - Flaticon" />
+
+      </ProjectsHeader>
+      {projectsData.map(({ name, description, image, link }) => (
+        <ProjContainer id="projects">
+          <CardWrapper>
+            <CardImg>
+              <img className="rounded" src={image} width="220px" alt="Imagem projeto app de receitas" />
+            </CardImg>
+
+            <CardBody>
+              <CardBodyOuter>
+                <CardBodyInner>
+                  <CardTitle>
+                    <h3>{name}</h3>
+                  </CardTitle>
+                  <CardDescription>
+                    <TextOfDescription>
+                      {description}
+                    </TextOfDescription>
+                  </CardDescription>
+                  <CardButton>
+                    <Button type="button" target="_blank" href={link}>
+                      Ver Projeto
+                    </Button>
+                  </CardButton>
+                </CardBodyInner>
+              </CardBodyOuter>
+            </CardBody>
+          </CardWrapper>
+        </ProjContainer>
+      ))}
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+    </div>
   )
 }
 

@@ -18,15 +18,14 @@ flex
 justify-center
 flex-wrap
 flex-col
+font-mono
 `
 
 export const Card = tw.span`
 max-w-sm
-max-h-72
+max-h-auto
 rounded
 shadow-md
-bg-neutral
-text-2xl
 align-middle
 transform
 transition
@@ -58,7 +57,7 @@ self-center
 
 export const CardDescription = tw.p`
 text-white
-text-base
+text-sm
 px-6
 py-4
 `

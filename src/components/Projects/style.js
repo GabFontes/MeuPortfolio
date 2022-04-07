@@ -1,6 +1,6 @@
 import tw from "tailwind-styled-components";
 
-export const Proj = tw.div`
+export const ProjectsHeader = tw.div`
 bg-neutral
 flex
 justify-center
@@ -11,70 +11,119 @@ flex-col
 export const Title = tw.span`
 text-green-600
 text-5xl
-p-10
+p-16
 pb-0
 flex
 flex-wrap
 justify-center
 `
 
-export const Img = tw.img`
+export const ProjIcon = tw.img`
 self-center
 pt-8
-pb-20
 `
 
-export const Cards = tw.div`
-flex
-justify-center
-self-center
-flex-wrap
-`
-
-export const Card = tw.div`
-max-w-sm
-max-h-72
-rounded
-shadow-md
+export const ProjContainer = tw.div`
+container
 bg-neutral
-text-2xl
-align-middle
-m-4
-z-0
-flex
-flex-col
-content-between
-`
-export const ImgContainer = tw.div`
-rounded
-`
-
-export const CardImg = tw.img`
-max-w-imgwidth
-self-center
-rounded
-`
-export const CardText = tw.div`
-flex
-flex-col
-`
-
-export const Name = tw.span`
-text-4xl
-self-center
-`
-export const Description = tw.p`
-text-white
-text-lg
-px-6
-max-w-md
-py-4
-`
-export const OpenProj = tw.a`
-bg-green-600
-rounded
-py-2
+mt-24
+mx-auto
 p-4
-mt-20
+md:p-0
+h-2/6
+w-full
+font-mono 
+`
+
+export const CardWrapper = tw.div`
+cardwrapper
+shadow-lg
+flex
+flex-wrap
+w-full
+lg:w-8/12
+mx-auto
+`
+
+export const CardImg = tw.div`
+cardimg
+bg-bottom
+w-auto
+md:w-1/4
+h-64 
+md:h-auto
+rounded
+`
+
+export const CardBody = tw.div`
+cardbody
+bg-semineutral
+w-full
+md:w-3/4
+`
+
+export const CardBodyOuter = tw.div`
+cardbodyouter
+h-full
+mx-auto 
+`
+
+export const CardBodyInner = tw.div`
+cardbodyinner
+bg-semineutral
+text-white
+lg:h-full
+p-6
+-mt-6 
+md:mt-0
+relative
+mb-4 
+md:mb-0 
+flex 
+flex-wrap
+md:flex-wrap
+items-center
+`
+
+export const CardTitle = tw.div`
+cardtitle
+text-green-600
+w-full
+text-3xl
+text-center
+`
+export const CardDescription = tw.div`
+carddescription
+w-full
+
+`
+
+export const TextOfDescription = tw.p`
+textofdescription
+text-md
+mt-4
+lg:mt-0
+text-justify
+md:text-left
+text-sm
+`
+
+export const CardButton = tw.div`
+cardbutton
+w-full
+mt-6
+`
+
+export const Button = tw.a`
+button
 self-center
+bg-green-600
+hover:bg-white
+hover:text-green-600
+hover:scale-105
+duration-300
+rounded
+w-full
+py-2
+text-center
 `
