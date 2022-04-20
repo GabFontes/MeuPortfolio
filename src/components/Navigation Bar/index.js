@@ -5,15 +5,6 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { NavBar, WrapperHeader } from './style';
 
 export function NavigationBar() {
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth'
-      });
-    });
-  });
   return (
     <WrapperHeader>
       <NavBar>
@@ -37,10 +28,8 @@ export function NavigationBar() {
             alt="linkedin Logo"
           />
         </a>
-      </Icons>
-    </NavBar>
-
-
+      </NavBar>
+    </WrapperHeader>
   )
 }
 

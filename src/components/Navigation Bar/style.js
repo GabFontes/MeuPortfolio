@@ -23,14 +23,5 @@ flex items-center justify-between flex-wrap
 `
 export const Icon = tw.span`
 
-export const Anchors = tw.div`
-flex
-align-middle
 `
-
-export const Icons = tw.span`
-flex
-items-center
-m-0
-p-0
-`
+export default NavBar;

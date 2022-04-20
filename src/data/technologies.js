@@ -1,12 +1,12 @@
-import html5 from '../images/icons/html.png';
-import css3 from '../images/icons/css.png';
-import javascript from '../images/icons/javascript.png';
-import react from '../images/icons/react.png';
-import docker from '../images/icons/docker.png';
-import git from '../images/icons/github.png';
-import redux from '../images/icons/redux.png';
-import jest from '../images/icons/jest.png';
-import mysql from '../images/icons/mysql.png';
+import html5 from '../images/html.png';
+import css3 from '../images/css.png';
+import javascript from '../images/javascript.png';
+import react from '../images/react.png';
+import docker from '../images/docker.png';
+import git from '../images/github.png';
+import redux from '../images/redux.png';
+import jest from '../images/jest.png';
+import mysql from '../images/mysql.png';
 
 const dataSpecialties = [
   {
