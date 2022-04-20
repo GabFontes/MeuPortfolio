@@ -32,38 +32,34 @@ export function Projects() {
         <ProjContainer id="projects">
           <CardWrapper>
             <CardImg>
-              <img className="rounded" src={image} width="220px" alt="Imagem projeto app de receitas" />
+              <img className="rounded" src={image} alt={name} />
             </CardImg>
 
             <CardBody>
-              <CardBodyOuter>
-                <CardBodyInner>
-                  <CardTitle>
-                    <h3>{name}</h3>
-                  </CardTitle>
-                  <CardDescription>
-                    <TextOfDescription>
-                      {description}
-                    </TextOfDescription>
-                  </CardDescription>
-                  <CardButton>
-                    <Button type="button" target="_blank" href={link}>
-                      Ver Projeto
-                    </Button>
-                  </CardButton>
-                </CardBodyInner>
-              </CardBodyOuter>
+              <CardTitle>
+                <h3>{name}</h3>
+              </CardTitle>
+              <CardDescription>
+                <TextOfDescription>
+                  {description}
+                </TextOfDescription>
+              </CardDescription>
+              <CardButton>
+                <Button type="button" target="_blank" href={link}>
+                  Ver Projeto
+                </Button>
+              </CardButton>
             </CardBody>
           </CardWrapper>
         </ProjContainer>
       ))}
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   )
 }

@@ -23,7 +23,7 @@ font-mono
 
 export const Card = tw.span`
 max-w-sm
-max-h-auto
+max-h-sm
 rounded
 shadow-md
 align-middle
@@ -57,7 +57,7 @@ self-center
 
 export const CardDescription = tw.p`
 text-white
-text-sm
+text-xs
 px-6
 py-4
 `
@@ -72,4 +72,5 @@ flex
 justify-center
 self-center
 flex-wrap
+w-11/12
 `

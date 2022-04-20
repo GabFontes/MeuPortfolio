@@ -34,12 +34,6 @@ const dataSpecialties = [
     knowmore: 'https://pt-br.reactjs.org/',
   },
   {
-    name: 'DOCKER',
-    description: 'Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres.',
-    image: docker,
-    knowmore: 'https://www.docker.com/',
-  },
-  {
     name: 'GITHUB',
     description: 'GitHub é uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.',
     image: git,
@@ -47,7 +41,7 @@ const dataSpecialties = [
   },
   {
     name: 'REDUX',
-    description: 'Redux é uma biblioteca JavaScript de código aberto para gerenciar o estado do aplicativo. É mais comumente usado com bibliotecas como React ou Angular para criar interfaces de usuário.',
+    description: 'Redux é uma biblioteca JavaScript de código aberto para gerenciar o estado do aplicativo.',
     image: redux,
     knowmore: 'https://redux.js.org/',
   },
@@ -59,9 +53,15 @@ const dataSpecialties = [
   },
   {
     name: 'MYSQL',
-    description: 'O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation',
+    description: 'O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface.',
     image: mysql,
     knowmore: 'https://jestjs.io/pt-BR/',
+  },
+  {
+    name: 'DOCKER',
+    description: 'Docker é um conjunto de produtos de plataforma como serviço que usam virtualização de nível de sistema operacional para entregar software em pacotes chamados contêineres.',
+    image: docker,
+    knowmore: 'https://www.docker.com/',
   },
 ];
 

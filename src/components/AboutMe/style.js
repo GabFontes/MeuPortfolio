@@ -7,7 +7,7 @@ m-0
 `
 
 export const HelloWorld = tw.h1`
-text-5xl
+text-4xl
 m-0
 pb-3
 text-green-600
@@ -17,7 +17,7 @@ hover:underline
 export const Studant = tw.div`
 block
 pb-8
-text-4xl
+text-3xl
 text-white
 `
 
@@ -36,11 +36,11 @@ px-36
 `
 
 export const Hello = tw.p`
-text-4xl
+text-3xl
 text-white
 `
 export const Name = tw.p`
-text-5xl
+text-4xl
 text-green-600
 pb-10
 `
