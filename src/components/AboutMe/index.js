@@ -12,14 +12,8 @@ export function AboutMe() {
           <span> &#129299;</span>
         </Name>
       </Hello>
-      <Studant className='block'>
-        <span
-          className='text-4xl
-        text-white
-         ml-40'
-        >
-          Estudante de Desenvolvimento Web FullStack na <a href='https://www.betrybe.com/' target="_blank" className='text-green-600' rel="noreferrer">Trybe <span className='animate-pulse'>&#127891;&#128640;</span></a>
-        </span>
+      <Studant>
+        Estudante de Desenvolvimento Web FullStack na <a href='https://www.betrybe.com/' target="_blank" className='text-green-600' rel="noreferrer">Trybe <span className='animate-pulse'>&#127891;&#128640;</span></a>
       </Studant>
       <Paragraph>
         Olá! Tenho 18 anos, sou um Desenvolvedor Front-end junior e atualmente curso Desenvolvimento Web na Trybe!
