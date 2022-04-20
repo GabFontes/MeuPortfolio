@@ -2,7 +2,6 @@ import tw from "tailwind-styled-components";
 
 export const Paragraph = tw.p`
 text-white
-mx-20
 text-2xl
 m-0
 `
