@@ -72,5 +72,5 @@ flex
 justify-center
 self-center
 flex-wrap
-w-11/12
+w-12/12
 `
